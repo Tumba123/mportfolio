@@ -6,6 +6,7 @@ body {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    position: relative; /* Add this line */
   }
   
   .warning-box {
@@ -52,9 +53,11 @@ body {
   #blur {
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed; /* Change position to fixed */
     z-index: 2;
     backdrop-filter: blur(12vmax);
+    top: 0; /* Add this line */
+    left: 0; /* Add this line */
   }
   
   @keyframes blink {
