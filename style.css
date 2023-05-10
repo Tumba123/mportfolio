@@ -74,7 +74,9 @@ body {
   
   .material-symbols-outlined {
     animation: blink 1s infinite;
-    color: rgb(134, 79, 79);
+    background: linear-gradient(to right, rgb(255, 70, 70), rgb(239, 108, 82));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     zoom: 5;
   }
   
