@@ -80,3 +80,58 @@ body {
     zoom: 5;
   }
   
+  #download-btn {
+    background-color: rgba(100, 100, 100, 0.25);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 0.5s;
+  }
+
+  #download-btn:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  #view-btn {
+    background-color: rgba(100, 100, 100, 0.25);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: 0.5s;
+  }
+
+  #view-btn:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .download-box {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: white;
+    z-index: 3;
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    border: 2px solid white;
+    padding: 20px; /* Adjust the padding to your preference */
+    border-radius: 10px;
+    word-wrap: break-word; /* Enable text wrapping */
+    background-color: rgba(100, 100, 100, 0.25);
+  }
+
+  .mailto {
+    color: white;
+  }
